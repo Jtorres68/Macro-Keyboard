@@ -1,3 +1,13 @@
+/*
+A simple macroboard designed with 3 different profiles using an Arduino Pro Micro.
+When plugged in, an OLED display will display the first profile shown (Win Shortcuts) and each buttons associated macro.
+To scroll through the profiles, the "SELECT" button has to be pressed. Each profile has their own set of macros and display.
+Down below are comments that may specifically say "Start Change", "End Change" to make this easier on others if they would like to change what the macro buttons do.
+If editing the button output, please state the new outcome in the OLED string that is to be displayed.
+
+This was a surprise project made for a good friend :D -Joselin Torres
+*/
+
 
 #include "Keyboard.h"
 #include <Wire.h>
@@ -31,7 +41,7 @@ int xprof = 0;
 char currprof = '0';  //current profile
 
 //set for multiple buttons
-//only change if adding more buttons, variables used for debounce function
+//only change if adding more buttons, they are variables used for debounce function
 int buttonState[8];             // the current reading from the input pin
 int lastButtonState[] = {HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH};   // the previous reading from the input pin
 unsigned long lastDebounceTime[] = {0, 0, 0, 0, 0, 0, 0, 0, 0};  // the last time the output pin was toggled
