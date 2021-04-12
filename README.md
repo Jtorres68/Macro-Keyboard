@@ -28,7 +28,7 @@ To install Adafruit GFX and Adafruit SSD1306:
   - Open a blank sketch
   - Have a button connected to GND and RST
   ![Reset Button](https://github.com/Jtorres68/Macro-Keyboard/blob/master/pic/Rest.png)
-  - Press Upload and as soon as you see the sketch uploading, press the button to ground the reset pin. This should reset the pro mciro and you should be able to upload again
+  - Press Upload and as soon as you see the sketch uploading, press the button to ground the reset pin. This should reset the pro micro and you should be able to upload again
   
 ## Button Functionality
   - To explain the basics:
