@@ -25,6 +25,7 @@ To install Adafruit GFX and Adafruit SSD1306:
   - Select Verify (the chaeckmark on the top left corner) if any changes made and then select Upload (the right arrow next to the checkmark)
   
 ## Resetting an Arduino Pro Micro
+  **If encountering an error during upload!!**
   - Open a blank sketch
   - Have a button connected to GND and RST
   ![Reset Button](https://github.com/Jtorres68/Macro-Keyboard/blob/master/pic/Rest.png)
